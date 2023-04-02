@@ -1,8 +1,13 @@
 import React from "react";
 
-const Orders = ({ orders }) => {
+const Orders = ({ orders, players }) => {
+    let orderedPlayers = [];
     let totalCost = 0;
     for (const order of orders) {
+        if (order) {
+            const player = players.find((player) => player.id === order.id);
+            orderedPlayers.push(player);
+        }
         totalCost += order?.price ? +order.price.split(" ")[0] : 0;
     }
     return (
@@ -12,6 +17,28 @@ const Orders = ({ orders }) => {
                 Selected Players: {orders.length}
             </p>
             <p className="mt-2">Total cost: {totalCost.toFixed(2)} crore</p>
+            <div className="players-container my-6">
+                <h3 className="text-xl font-semibold mb-2">
+                    {orderedPlayers.length > 0 ? "Players" : null}
+                </h3>
+                <div className="players flex flex-col gap-y-4">
+                    {orderedPlayers.map((player) => (
+                        <div
+                            key={player.id}
+                            className="player flex items-center"
+                        >
+                            <p className="text-lg font-medium">
+                                {orderedPlayers.indexOf(player) + 1}.
+                            </p>
+                            <img
+                                className="w-[60px] rounded-full"
+                                src={player.img}
+                            />
+                            {player.name}
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };

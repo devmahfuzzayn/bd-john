@@ -60,7 +60,7 @@ function App() {
                     </div>
                 </div>
                 <div className="orders-container mx-auto">
-                    <Orders orders={orders}></Orders>
+                    <Orders orders={orders} players={players}></Orders>
                 </div>
             </main>
             <ToastContainer />
