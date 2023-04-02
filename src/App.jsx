@@ -11,11 +11,17 @@ function App() {
             .then((data) => setPlayers(data));
     }, []);
     return (
-        <div className="App">
+        <div className="App text-[#FFFFFF]">
             <Header></Header>
-            {players.map((player) => (
-                <Player key={player.id} player={player}></Player>
-            ))}
+            <main>
+                <div className="players-container">
+                    <div className="players">
+                        {players.map((player) => (
+                            <Player key={player.id} player={player}></Player>
+                        ))}
+                    </div>
+                </div>
+            </main>
         </div>
     );
 }
