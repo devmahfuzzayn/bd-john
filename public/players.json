@@ -1,0 +1,92 @@
+[
+    {
+        "id": "bdplayerb80e81",
+        "name": "Mashrafe Mortaza",
+        "price": "2.22 crore",
+        "matches": "93",
+        "balls": "4,963",
+        "runs": "4,264",
+        "wickets": "118",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/391.png"
+    },
+    {
+        "id": "bdplayerbi66xo",
+        "name": "Shakib Al Hasan",
+        "price": "3.6 crore",
+        "matches": "104",
+        "balls": "5,806",
+        "runs": "4,529",
+        "wickets": "153",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/201.png"
+    },
+    {
+        "id": "bdplayer6mv5s4",
+        "name": "Tamim Iqbal",
+        "price": "2.52 crore",
+        "matches": "105",
+        "balls": "5,674",
+        "runs": "4,397",
+        "wickets": "98",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/287.png"
+    },
+    {
+        "id": "bdplayeruxf751",
+        "name": "Mushfiqur Rahim",
+        "price": "1.56 crore",
+        "matches": "135",
+        "balls": "5,915",
+        "runs": "4,994",
+        "wickets": "110",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/491.png"
+    },
+    {
+        "id": "bdplayerdbr6nr",
+        "name": "Soumya Sarkar",
+        "price": "1.89 crore",
+        "matches": "60",
+        "balls": "1,817",
+        "runs": "1,770",
+        "wickets": "45",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/1919.png"
+    },
+    {
+        "id": "bdplayeroxz9op",
+        "name": "Litton Das",
+        "price": "1.75 crore",
+        "matches": "56",
+        "balls": "2,272",
+        "runs": "2,012",
+        "wickets": "95",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/1596.png"
+    },
+    {
+        "id": "bdplayerv2zju7",
+        "name": "Rubel Hossain",
+        "price": "1.22 crore",
+        "matches": "65",
+        "balls": "221",
+        "runs": "116",
+        "wickets": "18",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/1135.png"
+    },
+    {
+        "id": "bdplayerlyun9f",
+        "name": "Mustafizur Rahman",
+        "price": "1.15 crore",
+        "matches": "78",
+        "balls": "189",
+        "runs": "105",
+        "wickets": "12",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/1594.png"
+    },
+    {
+        "id": "bdplayerfei727",
+        "name": "Mehidy Hasan Miraz",
+        "price": "1.36 crore",
+        "matches": "66",
+        "balls": "948",
+        "runs": "737",
+        "wickets": "34",
+        "img": "https://resources.pulse.icc-cricket.com/players/284/1597.png"
+    }
+]
